@@ -1,0 +1,8 @@
+{
+    "type": "content",
+    "modid": "enhancedsurvival",
+    "name": "EnhancedSurvival",
+    "description": "Enhancing survival!",
+    "version": "0.1.0",
+    "authors": [ "JustMatter" ]
+  }
