@@ -12,38 +12,38 @@
 			"platinumthermos", "silverthermos", "stainlesssteelthermos", "steelthermos", "tinthermos", "titaniumthermos"
 		]}
 	],
+	"shapeByType": {
+		"*-brassthermos": {"base": "enhancedsurvival:item/brassthermos"},
+		"*-bronzethermos": {"base": "enhancedsurvival:item/bronzethermos"},
+		"*-copperthermos": {"base": "enhancedsurvival:item/copperthermos"},
+		"*-goldthermos": {"base": "enhancedsurvival:item/goldthermos"},
+		"*-ironthermos": {"base": "enhancedsurvival:item/ironthermos"},
+		"*-nickelthermos": {"base": "enhancedsurvival:item/nickelthermos"},
+		"*-platinumthermos": {"base": "enhancedsurvival:item/platinumthermos"},
+		"*-silverthermos": {"base": "enhancedsurvival:item/silverthermos"},
+		"*-stainlesssteelthermos": {"base": "enhancedsurvival:item/stainlesssteelthermos"},
+		"*-steelthermos": {"base": "enhancedsurvival:item/steelthermos"},
+		"*-tinthermos": {"base": "enhancedsurvival:item/tinthermos"},
+		"*-titaniumthermos": {"base": "enhancedsurvival:item/titaniumthermos"},
+		"*": {"base": "enhancedsurvival:item/steelthermos"}
+	},
+	"texturesByType": {
+		"*-brassthermos": {"base": "game:block/metal/ingot/brass"},
+		"*-bronzethermos": {"base": "game:block/metal/ingot/tinbronze"},
+		"*-copperthermos": {"base": "game:block/metal/ingot/copper"},
+		"*-goldthermos": {"base": "game:block/metal/ingot/gold"},
+		"*-ironthermos": {"base": "game:block/metal/ingot/iron"},
+		"*-nickelthermos": {"base": "game:block/metal/ingot/nickel"},
+		"*-platinumthermos": {"base": "game:block/metal/ingot/platinum"},
+		"*-silverthermos": {"base": "game:block/metal/ingot/silver"},
+		"*-stainlesssteelthermos": {"base": "game:block/metal/ingot/stainlesssteel"},
+		"*-steelthermos": {"base": "game:block/metal/ingot/steel"},
+		"*-tinthermos": {"base": "game:block/metal/ingot/tin"},
+		"*-titaniumthermos": {"base": "game:block/metal/ingot/titanium"},
+		"*": {"base": "game:block/metal/ingot/stainlesssteel"}
+	},
     "attributes": {
 		"shelvable" : "true",
-		"shapeByType": {
-			"*-brassthermos": {"base": "enhancedsurvival:item/brassthermos"},
-			"*-bronzethermos": {"base": "enhancedsurvival:item/bronzethermos"},
-			"*-copperthermos": {"base": "enhancedsurvival:item/copperthermos"},
-			"*-goldthermos": {"base": "enhancedsurvival:item/goldthermos"},
-			"*-ironthermos": {"base": "enhancedsurvival:item/ironthermos"},
-			"*-nickelthermos": {"base": "enhancedsurvival:item/nickelthermos"},
-			"*-platinumthermos": {"base": "enhancedsurvival:item/platinumthermos"},
-			"*-silverthermos": {"base": "enhancedsurvival:item/silverthermos"},
-			"*-stainlesssteelthermos": {"base": "enhancedsurvival:item/stainlesssteelthermos"},
-			"*-steelthermos": {"base": "enhancedsurvival:item/steelthermos"},
-			"*-tinthermos": {"base": "enhancedsurvival:item/tinthermos"},
-			"*-titaniumthermos": {"base": "enhancedsurvival:item/titaniumthermos"},
-			"*": {"base": "enhancedsurvival:item/steelthermos"}
-		},
-		"texturesByType": {
-			"*-brassthermos": {"base": "game:block/metal/ingot/brass"},
-			"*-bronzethermos": {"base": "game:block/metal/ingot/tinbronze"},
-			"*-copperthermos": {"base": "game:block/metal/ingot/copper"},
-			"*-goldthermos": {"base": "game:block/metal/ingot/gold"},
-			"*-ironthermos": {"base": "game:block/metal/ingot/iron"},
-			"*-nickelthermos": {"base": "game:block/metal/ingot/nickel"},
-			"*-platinumthermos": {"base": "game:block/metal/ingot/platinum"},
-			"*-silverthermos": {"base": "game:block/metal/ingot/silver"},
-			"*-stainlesssteelthermos": {"base": "game:block/metal/ingot/stainlesssteel"},
-			"*-steelthermos": {"base": "game:block/metal/ingot/steel"},
-			"*-tinthermos": {"base": "game:block/metal/ingot/tin"},
-			"*-titaniumthermos": {"base": "game:block/metal/ingot/titanium"},
-			"*": {"base": "game:block/metal/ingot/stainlesssteel"}
-		},
 		"groundStorageTransformByType": {
 			"*-bronzethermos": {
 				"translation": { "x": 0, "y": 0, "z": 0 },
