@@ -1,3 +1,5 @@
+v0.2.0
+    - rescaled & repositioned gui & 3rd person view of thermos
 v0.1.7
     - updated types file
 
