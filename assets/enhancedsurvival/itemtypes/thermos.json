@@ -13,271 +13,402 @@
 		] }
 	],
     "attributes": {
-      "shelvable" : "true",
+		"shelvable" : "true",
+		"shapeByType": {
+			"*-brassthermos": {"base": "enhancedsurvival:item/brassthermos"},
+			"*-bronzethermos": {"base": "enhancedsurvival:item/bronzethermos"},
+			"*-copperthermos": {"base": "enhancedsurvival:item/copperthermos"},
+			"*-goldthermos": {"base": "enhancedsurvival:item/goldthermos"},
+			"*-ironthermos": {"base": "enhancedsurvival:item/ironthermos"},
+			"*-nickelthermos": {"base": "enhancedsurvival:item/nickelthermos"},
+			"*-platinumthermos": {"base": "enhancedsurvival:item/platinumthermos"},
+			"*-silverthermos": {"base": "enhancedsurvival:item/silverthermos"},
+			"*-stainlesssteelthermos": {"base": "enhancedsurvival:item/stainlesssteelthermos"},
+			"*-steelthermos": {"base": "enhancedsurvival:item/steelthermos"},
+			"*-tinthermos": {"base": "enhancedsurvival:item/tinthermos"},
+			"*-titaniumthermos": {"base": "enhancedsurvival:item/titaniumthermos"},
+			"*": {"base": "enhancedsurvival:item/steelthermos"}
+	},
+		"texturesByType": {
+			"*": {
+				"seraph": { "base": "game:block/transparent" }
+			}
+		},
 		"groundStorageTransformByType": {
-			"*-brassthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
-			},
 			"*-bronzethermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-copperthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
-			},
-			"*-ironthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-goldthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-ironthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-nickelthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-platinumthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-silverthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-stainlesssteelthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-steelthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-tinthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*-titaniumthermos": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			},
 			"*": {
-				"translation": { "x": 0.08, "y": 0, "z": -0.1 },
-				"rotation": { "x": 0, "y": 90, "z": 0 }
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
 			}
-		}
-	},
-	"shapeByType": {
-		"*-brassthermos": {"base": "enhancedsurvival:item/brassthermos"},
-        "*-bronzethermos": {"base": "enhancedsurvival:item/bronzethermos"},
-        "*-copperthermos": {"base": "enhancedsurvival:item/copperthermos"},
-        "*-goldthermos": {"base": "enhancedsurvival:item/goldthermos"},
-        "*-ironthermos": {"base": "enhancedsurvival:item/ironthermos"},
-        "*-nickelthermos": {"base": "enhancedsurvival:item/nickelthermos"},
-        "*-platinumthermos": {"base": "enhancedsurvival:item/platinumthermos"},
-        "*-silverthermos": {"base": "enhancedsurvival:item/silverthermos"},
-        "*-stainlesssteelthermos": {"base": "enhancedsurvival:item/stainlesssteelthermos"},
-        "*-steelthermos": {"base": "enhancedsurvival:item/steelthermos"},
-        "*-tinthermos": {"base": "enhancedsurvival:item/tinthermos"},
-        "*-titaniumthermos": {"base": "enhancedsurvival:item/titaniumthermos"},
-		"*": {"base": "enhancedsurvival:item/steelthermos"}
-	},
-	"texturesByType": {
-		"*": {
-			"seraph": { "base": "game:block/transparent" }
-		}
-	},
-	"fpHandTransformByType": {
-		"*-commonwealth": {
-			"translation": { "x": 0.6, "y": 0, "z": -0.5 },
-			"rotation": { "x": 90, "y": 42, "z": -29 },
-			"scale": 2.5
 		},
-		"*": {
-			"translation": { "x": 0.6, "y": 0, "z": -0.5 },
-			"rotation": { "x": 180, "y": 42, "z": -29 },
-			"scale": 2.5
-		}
-	},
-	"tpHandTransformByType": {
-		"*-bronzethermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
+		"fpHandTransformByType": {
+			"*-bronzethermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-copperthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-goldthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-ironthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-nickelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-platinumthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-silverthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-stainlesssteelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-steelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-tinthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-titaniumthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			}
 		},
-		"*-copperthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
+		"tpHandTransformByType": {
+			"*-bronzethermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-copperthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-goldthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-ironthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-nickelthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-platinumthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-silverthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-stainlesssteelthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-steelthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-tinthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-titaniumthermos": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*": {
+				"translation": { "x": 0.333, "y": 0.25, "z": 0.5 },
+				"rotation": { "x": 0, "y": 0, "z": -70 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			}
 		},
-		"*-goldthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
+		"guiTransformByType": {
+			"*-brassthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-bronzethermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-copperthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-goldthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-ironthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-nickelthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-platinumthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-silverthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-stainlesssteelthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-steelthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-tinthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*-titaniumthermos": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			},
+			"*": {
+				"translation": { "x": -3, "y": 6, "z": 0 },
+				"rotation": { "x": 0, "y": -140, "z": 150 },
+				"origin": { "x": 0, "y": 0, "z":0 },
+				"scale": 1.75
+			}
 		},
-		"*-ironthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-nickelthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-platinumthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-silverthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-stainlesssteelthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-steelthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-tinthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*-titaniumthermos-*": {
-			"translation": { "x": 0.4, "y": 0.33, "z": 0.5 },
-			"rotation": { "x": 0, "y": 0, "z": -75 },
-			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.8
-		},
-		"*": {
-			"translation": { "x": 0.23, "y": -0.65, "z": -0.6 },
-			"rotation": { "x": 0, "y": 0, "z": -90 },
-			"scale": 1
-		}
-	},
-	"guiTransformByType": {
-		"*-brassthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-bronzethermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-copperthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-goldthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-ironthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-nickelthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-platinumthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-silverthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-stainlesssteelthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-steelthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-tinthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*-titaniumthermos-*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		},
-		"*": {
-			"translation": { "x": -3, "y": 6, "z": 0 },
-			"rotation": { "x": 0, "y": -140, "z": 150 },
-			"origin": { "x": 0, "y": 0, "z":0 },
-			"scale": 1.75
-		}
-	},
-	"groundTransformByType": {
-		"*-commonwealth": {
-			"translation": { "x": 0.05, "y": -0.13, "z": 0 },
-			"rotation": { "x": 0, "y": 90, "z": -90 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 4
-		},
-		"*-maester": {
-			"translation": { "x": 0.05, "y": -0.11, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": -90 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 4
-		},
-		"*-maester2": {
-			"translation": { "x": 0.05, "y": -0.11, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": -90 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 4
-		},
-		"*": {
-			"translation": { "x": 0.05, "y": -0.11, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": -90 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 4
+		"groundTransformByType": {
+			"*-bronzethermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-copperthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-goldthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-ironthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-nickelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-platinumthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-silverthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-stainlesssteelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-steelthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-tinthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*-titaniumthermos": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			},
+			"*": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.7
+			}
 		}
 	}
 }
