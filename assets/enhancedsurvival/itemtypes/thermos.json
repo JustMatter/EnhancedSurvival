@@ -10,7 +10,7 @@
 		{ "code": "thermos", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
 			"brassthermos", "bronzethermos", "copperthermos", "goldthermos", "ironthermos", "nickelthermos",
 			"platinumthermos", "silverthermos", "stainlesssteelthermos", "steelthermos", "tinthermos", "titaniumthermos"
-		] }
+		]}
 	],
     "attributes": {
 		"shelvable" : "true",
@@ -28,11 +28,21 @@
 			"*-tinthermos": {"base": "enhancedsurvival:item/tinthermos"},
 			"*-titaniumthermos": {"base": "enhancedsurvival:item/titaniumthermos"},
 			"*": {"base": "enhancedsurvival:item/steelthermos"}
-	},
+		},
 		"texturesByType": {
-			"*": {
-				"seraph": { "base": "game:block/transparent" }
-			}
+			"*-brassthermos": {"base": "game:block/metal/ingot/brass"},
+			"*-bronzethermos": {"base": "game:block/metal/ingot/tinbronze"},
+			"*-copperthermos": {"base": "game:block/metal/ingot/copper"},
+			"*-goldthermos": {"base": "game:block/metal/ingot/gold"},
+			"*-ironthermos": {"base": "game:block/metal/ingot/iron"},
+			"*-nickelthermos": {"base": "game:block/metal/ingot/nickel"},
+			"*-platinumthermos": {"base": "game:block/metal/ingot/platinum"},
+			"*-silverthermos": {"base": "game:block/metal/ingot/silver"},
+			"*-stainlesssteelthermos": {"base": "game:block/metal/ingot/stainlesssteel"},
+			"*-steelthermos": {"base": "game:block/metal/ingot/steel"},
+			"*-tinthermos": {"base": "game:block/metal/ingot/tin"},
+			"*-titaniumthermos": {"base": "game:block/metal/ingot/titanium"},
+			"*": {"base": "game:block/metal/ingot/stainlesssteel"}
 		},
 		"groundStorageTransformByType": {
 			"*-bronzethermos": {
